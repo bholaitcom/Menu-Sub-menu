@@ -1,0 +1,61 @@
+/*
+Menu & Sub-menu
+http://www.bholait.com
+*/
+
+/*-----------------------------------------------------------------------------------*/
+							/*	Design By Md Mizanur Rahaman Santo */							
+/*-----------------------------------------------------------------------------------*/
+
+
+/*code start*/
+*{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*code content*/
+.content{
+	background: url:(image.bg.jpeg);
+	margin: 0px auto;
+	width: 900px;
+	height: 900px;
+}
+
+/*code nav*/
+.nav ul li{
+	float: left;
+	height: 40px;
+	width: 120px;
+	list-style: none;
+	text-transform: uppercase;
+	background: black;
+	border-right:2px solid white;
+	text-align: center;
+	padding-top: 20px;
+	}
+.nav ul li:hover{
+	background: red;
+	transition: 0.7s;
+}
+.nav ul li:hover ul {
+	display: block;
+	margin-top: 21px;
+}
+	
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	
+}
+
+.nav ul li ul{
+	display: none;
+}
+
+.nav ul li ul li{
+	border-top: 1px dotted white;
+	float: none;
+}
